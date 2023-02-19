@@ -1,0 +1,3 @@
+.inner-container {
+  height: 100%;
+}

@@ -1,0 +1,83 @@
+page {
+  --swiper-width: 750rpx;
+  --swiper-height: calc(var(--swiper-width) / 2);
+  --ad-width: 750rpx;
+  --ad-height: calc(var(--ad-width) / 2.88);
+  --item-margin-space: 15rpx;
+  --search-height: 54px;
+  --scroll-height: calc(100% - var(--search-height));
+}
+
+.search-container {
+  height: var(--search-height);
+}
+
+.scroll-container {
+  height: var(--scroll-height);
+}
+
+/* banner */
+.scroll-container .banner-container {
+  width: var(--swiper-width);
+  height: var(--swiper-height);
+}
+
+.scroll-container .banner-container .image {
+  width: var(--swiper-width);
+  height: var(--swiper-height);
+}
+
+/* 推荐 */
+.scroll-container .recommend-container {
+  margin-top: var(--item-margin-space);
+  background: white;
+}
+
+.scroll-container .recommend-container .goods-row {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.scroll-container .recommend-container .more-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+/* 广告 */
+.scroll-container .ad-container {
+  margin-top: var(--item-margin-space);
+  width: var(--ad-width);
+  height: var(--ad-height);
+}
+
+.scroll-container .ad-container .image {
+  width: var(--ad-width);
+  height: var(--ad-height);
+}
+
+/* 最新动态 */
+.scroll-container .latest-container {
+  margin-top: var(--item-margin-space);
+  margin-bottom: var(--item-margin-space);
+}
+
+.scroll-container .latest-container .recruit-item {
+  margin-bottom: var(--item-margin-space);
+}
+
+.scroll-container .latest-container .recruit-item:last-child {
+  margin-bottom: 0;
+}
+
+.scroll-container .latest-container .more-container {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}

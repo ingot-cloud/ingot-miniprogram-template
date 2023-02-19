@@ -1,0 +1,10 @@
+var fenToYuan = function (fen) {
+  if (!fen) {
+    return "--"
+  }
+  return fen / 100
+}
+
+module.exports = {
+  fenToYuan: fenToYuan
+}

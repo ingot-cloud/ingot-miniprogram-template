@@ -1,0 +1,26 @@
+page {
+  background: white;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+
+.top-container .logo {
+  margin-top: 150rpx;
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.confirm-container {
+  margin-top: 20rpx;
+  padding-left: var(--in-padding-l);
+  padding-right: var(--in-padding-r);
+}
+
+.confirm-container .confirm-button {
+  border-radius: 10rpx;
+}

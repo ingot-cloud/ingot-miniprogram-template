@@ -1,0 +1,6 @@
+<view class="inner-container">
+  <in-nav-bar title="{{title}}" border="{{border}}" left-text="{{leftText}}" left-arrow="{{leftArrow}}" fixed bind:click-left="onClickLeft" />
+  <view class="inner-content" style="top: calc({{top}}px + var(--in-nav-bar-height)); height: calc(100vh - {{top}}px - var(--in-nav-bar-height));">
+    <slot></slot>
+  </view>
+</view>

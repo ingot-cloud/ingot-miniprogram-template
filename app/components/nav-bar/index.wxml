@@ -1,0 +1,10 @@
+<van-nav-bar
+  title="{{title}}"
+  left-text="{{leftText}}"
+  left-arrow="{{leftArrow}}"
+  bind:click-left="onClickLeft"
+  border="{{border}}"
+  custom-class="custom-nav-bar"
+  fixed="{{fixed}}"
+  z-index="{{zIndex}}"
+/>

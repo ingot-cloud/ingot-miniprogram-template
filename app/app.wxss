@@ -1,0 +1,82 @@
+/**app.wxss**/
+page {
+  --theme-color: #136EF1;
+  --theme-bg-color: #F2F5F7;
+  --button-primary-background-color: var(--theme-color);
+  --button-primary-border-color: var(--theme-color);
+  --in-nav-bar-height: 46px;
+  --in-padding-l: 25rpx;
+  --in-padding-r: 25rpx;
+
+  /* van-skeleton 骨架 */
+  --skeleton-padding: 16px;
+  --skeleton-avatar-background-color: #cccccc;
+  --skeleton-row-background-color: #cccccc;
+
+  height: 100%;
+  width: 100%;
+  background: var(--theme-bg-color);
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}

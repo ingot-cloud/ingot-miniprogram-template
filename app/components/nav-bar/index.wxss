@@ -1,0 +1,11 @@
+.custom-nav-bar {
+  --nav-bar-background-color: var(--theme-color);
+  --nav-bar-title-text-color: white;
+  --nav-bar-text-color: white;
+  --nav-bar-icon-color: white;
+  --nav-bar-height: var(--in-nav-bar-height);
+}
+
+.custom-nav-bar .van-nav-bar__text--hover {
+  background-color: var(--theme-color);
+}

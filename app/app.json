@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/security/login/index",
+    "pages/security/bind-phone/index",
+    "pages/tab/index/index"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#136EF1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tab/index/index",
+        "iconPath": "images/icon/ic_home.png",
+        "selectedIconPath": "images/icon/ic_home_hl.png",
+        "text": "首页"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#136EF1",
+    "navigationBarTitleText": "模板",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-nav-bar": "@vant/weapp/nav-bar/index",
+    "van-image": "@vant/weapp/image/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-skeleton": "@vant/weapp/skeleton/index",
+    "van-empty": "@vant/weapp/empty/index",
+    "van-tag": "@vant/weapp/tag/index",
+    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "@vant/weapp/dropdown-item/index",
+    "van-sidebar": "@vant/weapp/sidebar/index",
+    "van-sidebar-item": "@vant/weapp/sidebar-item/index",
+    "van-loading": "@vant/weapp/loading/index",
+    "van-datetime-picker": "@vant/weapp/datetime-picker/index",
+    "in-nav-bar": "./components/nav-bar/index",
+    "in-nav-container": "./components/nav-container/index",
+    "in-scroll-view": "./components/scroll-view/index"
+  }
+}

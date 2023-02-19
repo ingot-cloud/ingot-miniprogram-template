@@ -1,0 +1,5 @@
+<scroll-view class="inner-container" scroll-y="{{true}}" refresher-triggered="{{loading ? innerRefresherTriggered :refresherTriggered}}" refresher-enabled="{{refresherEnabled}}" bind:refresherrefresh="onPullDownRefresh" bind:scrolltolower="onLoadMore" lower-threshold="{{0}}">
+  <van-skeleton avatar="{{avatar}}" title="{{title}}" row="{{row}}" loading="{{ loading }}">
+    <slot></slot>
+  </van-skeleton>
+</scroll-view>

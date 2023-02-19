@@ -1,0 +1,16 @@
+<in-nav-container title="{{title}}" border="{{false}}" leftArrow>
+  <view class="top-container">
+    <image class="logo" src="/images/icon/ic_logo.png" />
+    <view class="title">{{loginTitle}}</view>
+  </view>
+
+  <view class="login-container">
+    <van-button custom-class="button" type="primary" size="normal" block bind:click="onWechatLogin">微信一键登录</van-button>
+    <div class="protocol-container">
+      <checkbox model:checked="{{agree}}" />
+      <div class="protocol" bind:tap="onCheckboxTap">同意并阅读<span class="inner" catch:tap="onProtocolClick">《使用协议》</span></div>
+    </div>
+  </view>
+</in-nav-container>
+
+<van-toast id="van-toast" />

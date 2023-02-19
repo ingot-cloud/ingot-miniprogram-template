@@ -1,0 +1,5 @@
+<in-nav-container title="{{title}}" border="{{false}}">
+  <scroll-view class="scroll-container" scroll-y="{{true}}" refresher-triggered="{{refreshTriggered}}" refresher-enabled bind:refresherrefresh="onPullDownRefresh">
+
+  </scroll-view>
+</in-nav-container>
