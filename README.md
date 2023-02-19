@@ -1,0 +1,1 @@
+# ingot-miniprogram-template
